@@ -1,0 +1,33 @@
+1) User will first access Registration Page
+
+2) User will then enter First Name, Last Name, Username, and Password inside form
+
+3) The array of variables will then be passed by the $_POST method
+
+
+*Has the user completed each field?
+
+	a) If no, an error message will appear, informing the user to complete each field
+
+	b) If yes, the user will then need to upload an image for their avatar
+
+
+*Did the image process?
+	
+	a) If no, the user will receive a broken image icon and an error message
+
+	b) If yes, the user will receive a validation message and will be able to view 		their image 
+
+
+4) After user has submitted the form, newuser.php will run
+
+5) User information from the variables inside the array will then be stored by $_POST
+
+6) The “foreach” loop will then display the results to the browser from the variables $arrayForm and $arrayInfo 
+
+
+*Was the form successful?
+
+	a) If no, an error message will appear and user will not see welcome message
+	b) If yes, the information stored by the user will be displayed in the browser as 	well as a welcome message
+
