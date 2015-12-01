@@ -1,0 +1,19 @@
+Screencast Outline: 
+
+1) I will begin my screen cast by introducing myself as well as my project
+
+2) The first topic I will cover will be my “index.html” file 
+
+3) I will discuss the importance that the “index.html” file has on the “newuser.php” file 
+
+4) The next topic I will cover will the for the file “newuser.php”
+
+5) I will discuss the functionality of this file from start to finish by using my own personal comments as guidance
+
+6) Once I have completely covered both my html and php files, I will then discuss my concerns for this class and the topics that were covered this week 
+
+
+Youtube Video: https://youtu.be/qb35TgOSUOY
+
+
+
