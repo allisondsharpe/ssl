@@ -1,0 +1,8 @@
+Screencast Outline: 
+
+For this screencast, I first begin covering the html aesthetics and what the user will see as soon as they enter the webpage. I then begin covering the ‘fruits.php’ file by discussing the code and outlining each method and how they function for the user. After that, I briefly demonstrate my ‘deletefruits.php’ file and I discuss my intentions on completing it as well as the styling for ‘fruits.php’. Finally, I close out of the screencast by giving my thoughts on this week’s assignments and what I found most interesting. 
+
+
+Youtube link: 
+
+https://youtu.be/rganzJjOadE

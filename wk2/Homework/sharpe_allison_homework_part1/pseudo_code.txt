@@ -5,30 +5,33 @@
 Flowchart Outline:
 
 
-/User enters site/
+/PHP begins/
 
 
--User will insert their fruit name and fruit color into the input fields
+1) Create variables for $user and $pass, as well as a variable that will include your SQL database 
 
-1)The user’s data will be stored within $_POST and their values will be inserted into database “SSL”
+2) Create variables for $fruitcolor and $fruitname that will be stored in an array within the method ‘$_POST’
 
+3) Use the ‘prepare’ method to insert values from the form variables into your SQL database
 
-*Did the user enter data into both fields?*
+4) Bind your variables for $fruitname and $fruitcolor using bindParam 
 
-	-If yes, user will be able to submit form
+5) Once completed, use ‘execute()’ to execute the values for fruitname and fruitcolor into your SQL database
 
-	-If no, user will NOT be able to submit form
+*Is there data within both input fields?*
 
+a) If yes, form will submit
 
-2) Once user has submitted their form, their data will appear in the browser
+b) If no, form will NOT submit
 
-3) ‘PREPARE’ will select all rows from table “fruits” in database “SSL”
+6) Next, use the ‘prepare’ method once again to select all rows from the ‘fruits’ table within your SQL database
 
-4) ‘FETCH_ASSOC’ will return values within array set for each row
+7) Use ‘execute()’ to execute the ‘prepare’ process
 
-5) The foreach loop will then print the returned values to the browser
+8) Use the ‘FETCH_ASSOC’ method to return those selected values for each row
 
-- User will be able to delete form with deletefruit.php
+9) The ‘foreach loop’ will print those returned values to the browser
 
+10) The ‘Delete Row’ button will allow you to delete any row within the database
 
-/User has completed all required steps/
+/All required steps have been completed/
