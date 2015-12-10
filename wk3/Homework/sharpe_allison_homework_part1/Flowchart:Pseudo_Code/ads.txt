@@ -1,0 +1,44 @@
+Name: Allison Sharpe
+Date: 12-09-15
+Class: Server Side Languages
+Assignment: Homework/Wk3
+
+Key/Legend:
+/ = Start/End
+! = Input
+* = Decision
+a/b = Yes, or no
+
+Pseudo Code: 
+
+/ Begin PHP /
+
+1) Call to database “SSL” with PDO
+
+2) Pass variables $fruitname, $fruitcolor, and $fruitimage using ‘POST’
+
+3) Use ‘prepare’ to insert values into table ‘fruits’
+
+4) Use ‘bindParam()’ to bind values inside their variables
+
+! Execute $stmt 
+
+5) Gather contents from local file and decode json into array
+
+6) Use ‘foreach’ loop to print value for $fruitname and $fruitimage to browser 
+
+7) Use ‘prepare’ once more to select values and then use ‘execute’()  to execute those values
+
+8) Once executed, values will be returned using ‘fetchall()’
+
+9) Use another ‘foreach’ loop to print values for $id, $fruitname, $fruitcolor, and $fruitimage to browser inside HTML table 
+
+*Are there any values inside table ‘fruits?’*
+
+a) If yes, all values will be displayed to browser
+
+b) If no, user must enter values within each variable in order for it to display to the browser
+
+10) Once values are displayed, user will have the option to delete each row 
+
+/ All steps have been completed /

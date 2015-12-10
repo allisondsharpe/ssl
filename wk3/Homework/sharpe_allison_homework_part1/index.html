@@ -1,0 +1,53 @@
+<!-- Name: Allison Sharpe
+     Date: 12-10-15
+     Class: Server Side Languages
+     Assignment: Fruit Ads API -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit Ads API</title>
+</head>
+<style>
+    th, td {
+        border-right: 1px solid #000;
+    }
+
+    th {
+        text-decoration: underline;
+    }
+
+    img {
+        border: 1px solid #000;
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+
+    <!-- form action calls to 'ads.php' -->
+    <form action="ads.php" method="POST">
+        Fruit Name:
+        <input type="text" name="fruitname" placeholder="Fruit Name" required><br>
+        Fruit Color:
+        <input type="text" name="fruitcolor" placeholder="Fruit Color" required><br>
+        Fruit Image:
+        <input type="text" name="fruitimage" placeholder="Paste Fruit Image Url" required><br><br>
+        <input type="submit" name="submit" value="Submit">
+        <!-- 'reset' will reset each input field inside form -->
+        <input type="reset" name="reset" value="Reset"><br><br>
+    </form>
+
+    <!-- table for values for each variable to be placed within -->
+    <table>
+        <tr>
+            <th>Fruit ID:</th>
+            <th>Fruit Name:</th>
+            <th>Fruit Color:</th>
+            <th>Fruit Image:</th>
+            <th>Action:</th>
+        </tr>
+    </table>
+
+</body>
+</html>
