@@ -1,0 +1,13 @@
+Name: Allison Sharpe
+Date: 12-10-15
+Class: SSL
+Assignment: Homework/Wk3
+
+Screencast Outline: 
+
+For this screencast, I first begin by reviewing ‘ads.php’ by breaking down the php logic as well as some of the HTML logic. Then, I present my file ‘deletefruit.php’ as well as my file ‘fruitget.php’. After presenting all three files, I present them inside the browser. After presenting them, I return to ‘ads.php’ inside the browser and demonstrate how the form functions as well as what will be displayed within the browser after submitting. I demonstrate this by adding in a new fruit called ‘pear’ and then deleting it afterwards. I then proceed to demonstrate the use of the ‘reset’ button as well. Unfortunately, the final half of the video was cut off, but it was only a closing message. I stated my interest with working with JSON and XML as well as other elements I’ve learned this week and then proceeded to close off the screencast.
+
+
+Youtube link: 
+
+https://youtu.be/jeubl1y_CPM

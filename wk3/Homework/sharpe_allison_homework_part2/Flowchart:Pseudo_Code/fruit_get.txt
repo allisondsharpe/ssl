@@ -1,0 +1,37 @@
+Name: Allison Sharpe
+Date: 12-10-15
+Class: Server Side Languages
+Assignment: Homework/Wk3
+
+Key/Legend:
+/ = Start/End
+! = Input
+* = Decision
+a/b = Yes, or no
+
+Pseudo Code: 
+
+/ Begin PHP /
+
+1) ‘header’ will tell browser that file is in json format
+
+2) Call to database ‘SSL’ using PDO
+
+3) Select variables from table ‘fruits’ and use ‘RAND() LIMIT 2’ to order each row 
+
+*Do you have at least two rows inside database?*
+
+a) If no, enter in at least two rows of data into database
+b) If yes, continue with the next step
+
+4) ‘prepare’ will select values from table ‘fruits’ 
+
+! Execute $stmt
+
+5) Use ‘fetchAll()’ to return values from $stmt
+
+6) ‘json_encode’ will convert file into json format
+
+7) $encoded_json will be echoed to the browser
+
+/ All steps have been completed /

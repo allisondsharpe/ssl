@@ -1,0 +1,33 @@
+Name: Allison Sharpe
+Date: 12-10-15
+Class: Server Side Languages
+Assignment: Homework/Wk3
+
+Key/Legend:
+/ = Start/End
+! = Input
+* = Decision
+a/b = Yes, or no
+
+Pseudo Code: 
+
+/ Begin PHP /
+
+1) Call to database ‘SSL’ using PDO
+
+2) Use $_GET to define ‘$id’
+
+3) ‘prepare’ will select values for ‘$id’
+
+4) ‘bindParam’ will gather and bind values for $id 
+
+! Execute $stmt
+
+5) ‘header’ will re-direct browser to ‘ads.php’ 
+
+*Are you able to delete a row one by one?*
+
+a) If no, go back and re-evaluate code
+b) If yes, congratulations! You have successfully enabled the delete option
+
+/ All steps have been completed /
