@@ -1,0 +1,43 @@
+Name: Allison Sharpe
+Date: 12-16-15
+Class: Server Side Languages
+Assignment: Homework/Wk4
+
+Key/Legend:
+/ = Start/End
+! = Input
+* = Decision
+a/b = Yes, or no
+
+Pseudo Code: 
+
+/ Begin PHP /
+
+1) Begin session with ‘session_start()’
+
+2) Call to database using ‘PDO’
+
+3) Use ‘!filter_var’ to filter website field
+
+*Did the user enter a valid website?*
+
+a) If yes, user will be able to add contact and will receive validation message
+b) If no, user will receive error message
+
+4) Insert values within each variable using ‘prepare’ 
+
+5) Use ‘bindParam()’ to bind all values submitted by user with variables
+
+! Use ‘execute()’ to execute those values !
+
+6) Use ‘prepare’ once again to select all rows from table ‘contacts’
+
+! Run ‘execute()’ once more !
+
+7) ‘fetchall()’ will return those values to the browser
+
+8) The ‘foreach’ loop will then take those returned values and print them to the browser
+
+9) A ‘delete’ and ‘update’ function will be added using ‘delete.php’ and ‘update.php’
+
+/ All steps have been completed /

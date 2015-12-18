@@ -1,0 +1,15 @@
+Name: Allison Sharpe
+Date: 12-18-15
+Class: Server Side Languages
+Assignment: Homework/Wk4
+
+Screencast Outline: 
+
+For this screencast, I will begin by introducing my file ‘contacts.php’ and its php/html logic. After that, I will briefly review the ‘update.php’ as well as the ‘delete.php’ files just to compare the php code to ‘contacts.php’ as well as demonstrate the php code required specifically for each file in order for those files to function properly in the browser. Next, I will demonstrate my project in the browser starting with ‘contacts.php’. I will add a new contact, demonstrate the updated contact values inside of the database, update the contact’s phone number inside the browser, and then delete the contact within the browser as well. Finally, I will close out of the screencast by adding in a few comments and/or questions I may have had about the assignment. 
+
+NOTE: I forgot to demonstrate my database ‘ssl’ for this screencast, however, I did take a screenshot of my results for the first contact I had added. 
+
+
+Youtube link: 
+
+https://youtu.be/bk3ieTIXTaQ
